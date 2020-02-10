@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color: rgb(89, 142, 175);
+  background-image: url("https://ereimers-sound.com/wp-content/uploads/2014/05/Movie-theater-Dark1.jpg");
+  color: rgb(245, 219, 228);
+  font-family: 'Source Code Pro', monospace;;
+
+}
+
+.Header {
+  background-color: black;
+  height: 15vh;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 29px;
+  color: rgb(236, 229, 231);
+}
+
+.searchMovie{
+  color: rgb(245, 219, 228);
+  margin-right: 560px;
+  font-size: 50px;
+  text-decoration: underline ;
+  font-family: 'Source Code Pro', monospace;
+  margin-top: 80px;
+ 
+}
+
+.movies{
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+.search {
+  margin-left: 350px;
+  height: 40px;
+  width: 300px;
+  /* display: flex */
+  display: flex;
+
+
+}
+.button {
+ background-color:  black;
+ color: rgb(245, 219, 228);
+ border: none;
+ font-family: 'Source Code Pro', monospace;
+align-items: flex-start;
+margin-top: 30px;
+margin-right: 568px;
+font-size: 17px;
+
+}
+
+.display{
+text-decoration: underline;
+margin-left: 600px;
+margin-top: 0px;
+font-size: 35px;
+display: center;
+}
+
+.deleteButton {
+  background-color: black;
+  color: rgb(245, 219, 228);
+  border: none;
+}
